@@ -1,5 +1,103 @@
 # DimCode Issues
 
+[English](#english) | [中文](#中文)
+
+## English
+
+This is the public issue tracker for DimCode.
+
+If you run into a problem, notice a rough edge, or want to suggest an improvement, please open an Issue in this repository. We use this space to collect feedback, clarify reports, track progress, and evaluate requests for future releases.
+
+## What To Submit
+
+You are welcome to submit:
+
+- **Bug Report**: crashes, freezes, broken behavior, display issues, or unexpected results.
+- **Feature Request**: new capabilities, workflow improvements, or integration ideas.
+- **UX Feedback**: issues with interface, interaction, copy, settings, or onboarding.
+- **Compatibility Issue**: problems on specific operating systems, devices, model services, or project environments.
+- **Question**: unclear behavior, configuration questions, or product limitations.
+
+## Before Opening An Issue
+
+Before submitting, please do a quick check:
+
+- Search existing Issues for similar reports.
+- Make sure you are using a recent version of DimCode.
+- Prepare reproduction steps, screenshots, recordings, or relevant error messages when possible.
+- If the issue involves a third-party service, describe the service and general setup, but do not share secrets.
+
+## Bug Report Template
+
+When reporting a bug, this format is helpful:
+
+```text
+Description:
+
+Steps to reproduce:
+1.
+2.
+3.
+
+Expected behavior:
+
+Actual behavior:
+
+Environment:
+- OS: macOS / Windows / Linux
+- DimCode version:
+- Related model or service:
+
+Additional context:
+- Screenshots / recordings / redacted log snippets
+```
+
+## Feature Request Template
+
+When requesting a feature, this format is helpful:
+
+```text
+Problem to solve:
+
+Desired experience:
+
+Current workaround:
+
+Use case:
+```
+
+## Security And Privacy
+
+Please do not post sensitive information in public Issues, including but not limited to:
+
+- API keys, tokens, passwords, or private keys
+- Personal information such as email addresses or phone numbers
+- Company source code, customer data, or private documents
+- Full logs that may include local paths, environment variables, or request content
+
+If logs are needed, please redact them manually and include only the relevant snippets.
+
+## Issue Workflow
+
+After an Issue is submitted, we may:
+
+1. Confirm the issue type and impact.
+2. Ask follow-up questions when more information is needed.
+3. Prioritize the report for a fix, improvement, or product evaluation.
+4. Share status updates or explain why an Issue is closed.
+
+We aim to keep communication clear, but not every request can be scheduled immediately.
+
+## About DimCode
+
+DimCode is an AI coding tool for developers. It helps users work more naturally with local projects through conversation, context understanding, code task assistance, and workflow management.
+
+This repository is only for public feedback and issue tracking. It does not contain the DimCode application source code.
+
+---
+
+## 中文
+
 这里是 DimCode 的公开反馈与问题追踪仓库。
 
 如果你在使用 DimCode 时遇到问题、发现体验不顺、希望提出功能建议，欢迎通过本仓库提交 Issue。我们会在这里收集反馈、澄清需求、同步处理进展，并将有价值的问题纳入后续版本规划。
@@ -45,10 +143,10 @@
 - 相关模型或服务：
 
 补充材料：
-- 截图 / 录屏 / 日志片段
+- 截图 / 录屏 / 已脱敏日志片段
 ```
 
-## 功能建议建议格式
+## 功能建议格式
 
 提交功能建议时，可以包含这些信息：
 
